@@ -39,11 +39,11 @@ sign_ext_structural #(
 
 initial begin
     $dumpvars;
-    $display("Test started (N = %d, M = %d).", N, M);
+    $display("[sign_ext] Test started (N = %d, M = %d).", N, M);
 
-    #40
+    #5000
 
-    $display("Test done!");
+    $display("[sign_ext] Test done!");
     $finish;
 end
 
